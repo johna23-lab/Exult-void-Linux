@@ -12,7 +12,7 @@ git clone https://github.com/exult/exult.git</br>
 cd exult</br>
 echo $(git rev-list --count master).$(git rev-parse --short master)</br>
 ./autogen.sh</br>
-LIBS="-lXft -lX11" ./configure --prefix=/usr --enable-static-libraries --disable-shared<
+LIBS="-lXft -lX11" ./configure --prefix=/usr --enable-static-libraries --disable-shared
 --with-timidity="/etc/timidity++/timidity.cfg" --enable-mt32emu</br>
 make</br>
 make install DESTDIR=/home/$USER/exult_c</p></p>
