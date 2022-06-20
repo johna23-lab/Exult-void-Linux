@@ -20,7 +20,7 @@ make install DESTDIR=/home/$USER/exult_c</p></p>
 <b>CREATING THE XBPS PACKAGE WITH DEPENDENCIES</b></br>
 chmod -R 755 /home/$USER/exult_c/usr</br>
 xbps-create -q -A "x86_64" -n "exult_1.9-8253_1" -s "exult_1.9-8253 pkg" -D  "SDL2>=2.0.22 libmt32emu>=2.5.1
-leafpad>=0.8.18.1 qpdfview>=0.4.18 timidity>=2.15.0" --compression xz exult_1.9</p></p>
+leafpad>=0.8.18.1 qpdfview>=0.4.18 timidity>=2.15.0" --compression xz exult_c</p></p>
 
 <b>INSTALLING THE PACKAGE</b></br>
 xbps-rindex -a exult_1.9-8253_1.x86_64.xbps</br>
