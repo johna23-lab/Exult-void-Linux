@@ -1,6 +1,6 @@
 # Exult-void-Linux
 Exult is a project to recreate Ultima 7 for modern operating systems, using the game's original plot, data, and graphics files.</p>
-This version is commiled for Linux void</p>
+This version is compiled for Linux void</p>
 
 https://github.com/exult/exult
 
